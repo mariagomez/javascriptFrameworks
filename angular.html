@@ -1,0 +1,14 @@
+<html ng-app>
+	<head>
+		<script src="angular.min.js"></script>
+		<script>
+			function TextController($scope) {
+				$scope.someText = 'Hello World';
+			}
+      	</script>
+	</head>
+
+	<body ng-controller="TextController">
+		<p>{{someText}}</p>
+    </body>
+</html>
