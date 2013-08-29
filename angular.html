@@ -1,16 +1,16 @@
 <html ng-app>
-	<head>
-		<title>Hello World in Angular</title>
-		<script src="angular.min.js"></script>
-		<script>
-			function TextController($scope) {
-				$scope.yourName = 'World';
-			}
-      	</script>
-	</head>
+  <head>
+    <title>Hello World in Angular</title>
+    <script src="angular.min.js"></script>
+    <script>
+      function TextController($scope) {
+        $scope.yourName = 'World';
+      }
+    </script>
+  </head>
 
-	<body ng-controller="TextController">
-		<input type='text' ng-model='yourName' /> 
-		<p>Hello {{yourName}}!</p>
-    </body>
+  <body ng-controller="TextController">
+    <input type='text' ng-model='yourName' />
+    <p>Hello {{yourName}}!</p>
+  </body>
 </html>
