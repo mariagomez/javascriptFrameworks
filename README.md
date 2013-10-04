@@ -12,3 +12,4 @@ Resources
 * Angular JS learning resources: https://github.com/jmcunningham/AngularJS-Learning
 * Knockout tutorial http://learn.knockoutjs.com/
 * JSFiddle http://jsfiddle.net
+* Testing performance on various frameworks: http://jsperf.com/angular-vs-knockout-vs-ember/176
